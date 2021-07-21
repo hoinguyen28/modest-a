@@ -1,0 +1,35 @@
+.service{ 
+    margin-top: 76px;
+    margin-bottom: 73px;
+    margin-right: 0px;
+    &__title{
+        @include border-left;
+    }
+    &__item{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 80px;
+    }
+    &__small-item{
+        width: 23%;
+        margin-right: 30.2px;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 86px;
+    }
+    &__small-item1{
+        width: 23%;
+        margin-right: 0px;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 86px;
+    }
+    &__content{
+        padding-top: 23px;
+        p{
+            padding-top: 18px;
+        }
+    }
+    
+    
+}

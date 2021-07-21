@@ -1,0 +1,62 @@
+.contact{
+    position: relative;
+    &__title{
+        padding-top: 60px;
+        h2{
+            @include border-left;
+        }
+        margin-bottom: 49px;
+    }
+    &__information{
+        margin: 45px 0px 96px 10px;
+        width: 49%;
+        p{
+            margin-top: 29px;
+        }
+    }
+    &__form{
+        font-size: 13px;
+        position: absolute;
+        background-color:white;
+        width: 556px;
+        height: 393px;
+        right: 20%;
+        bottom: 0%;
+    }
+    &__wrap{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+    &__lable {
+        padding-left: 10px;
+    }
+    &__form-name{
+        margin-left: 20px;
+
+    }
+    &__in {
+        margin-top: 4px;
+        margin-left: 10px;
+        width: 243px;
+        height: 42px;
+        border-radius: 3px;
+        background-color: $form;
+        border: none;
+    
+    }
+    &__big-in{
+        width: 492px;
+        margin-left: 7px;
+        height: 151px;
+        background-color: $form;
+        border: none;
+    }
+    &__form-message{
+        margin-top: 32px;
+        margin-left: 30px;
+    }
+}
+    
+    
+

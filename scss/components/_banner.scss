@@ -1,0 +1,28 @@
+.banner{
+    color:#ffff;
+    position: relative;
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+    &__content{
+        position: absolute;
+        top: 46.7%;
+        transform: translateY(-50%);
+        max-width: 650px;
+        left:calc((100% - #{$container-width}) / 2);
+    }
+
+    &__title{
+        color: white ;
+        font-size: 30.5px ;
+    }
+
+    &__subtitle{
+        color: $text1;
+        font-size: 15.4px;
+        margin-top: 15px;
+    }
+    
+}   

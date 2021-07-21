@@ -1,0 +1,54 @@
+.our-team{
+    margin-top: 74px;
+    &__title{
+        @include border-left
+    }
+    &__body{
+        margin-top: 51px;
+        display: flex;
+    }
+    &__member{
+        @include format(4);
+        background-color: $border-left;
+        &:nth-child(4n){
+            margin-right: 0px;
+        }
+        position: relative;
+        p{
+            font-size: 13.5px;
+        }
+        img{
+            margin-bottom: 0px;
+        }
+        &:hover {
+            background-color: $brown;
+            color: white;
+            transition: 0.5s;
+            }
+            &:hover img {
+                opacity: 1;
+            }
+    }
+    &__icon{
+        position: absolute;
+        top: 44.1%;
+        left: 52.7%;
+        transform: translate(-50%,-50%);
+        ul{
+            display: flex;
+        }
+        li{
+            margin-right: 1px;
+        }
+        display: none;
+    }
+    &__content{
+        padding: 12px 20px;
+        
+    }
+    &__member:hover &__icon{
+        display: block;
+        opacity: 1;
+    }
+
+}

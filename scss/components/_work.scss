@@ -1,0 +1,72 @@
+.work{
+    position: relative;
+    margin-top: 102px;
+    padding-bottom: 130px;
+    background-color: $brown;
+    &__title{
+        padding-top:73.3px;
+        h2{
+            @include border-left;
+            color:white;
+        }
+    }
+    &__body{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 51.5px;
+    }
+    &__button{
+        a{
+            border: 2px solid white;
+            border-radius: 5px;
+            padding: 11px 31px 10px 20px;
+            color: white;
+            font-size: 12px;
+
+        }
+        position:absolute;
+        left: 46.3%;
+        top: 89.5%;
+    
+    }
+    &__picture{
+        margin-right: 30px;
+        position: relative;
+        margin-bottom: 25px;
+    }
+    &__picture1{
+        position: relative;
+        margin-right: 0px;
+    }
+    &__more{
+        background-color:$h2h3;
+        width: 360px;
+        height: 60px;
+        display: flex;
+        padding: 10px;
+        color: white;
+        position: absolute;
+        top: 210px;
+        display: none;
+    }
+    &__more1{
+        background-color:$h2h3;
+        width: 360px;
+        height: 60px;
+        display: flex;
+        padding: 10px;
+        color: white;
+        position: absolute;
+        top: 210px;
+        display: none;
+    }
+    &__picture:hover &__more{
+        display: block;
+        transition: 0.4;
+    }
+    &__picture1:hover &__more1{
+        display: block;
+        transition: 0.4;
+    }
+
+}

@@ -1,0 +1,42 @@
+.header{
+    background-color:$dark;
+    height: 81px;
+    &__logo-menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__logo{
+        padding: 31.2px 0px 24.8px 0px;
+        
+
+    }
+    &__menu{
+        font-size: 14px;
+        ul{
+            display: flex;
+            align-items: center;
+        }
+        li{
+            margin-left: 15.5px;
+        }
+        a{
+            color: $text-menu;
+            text-transform: uppercase;
+            padding: 4px 9px; 
+            border: 2px solid $dark;
+            border-radius: 5px;
+            transition: 0.5s;
+            &:hover{
+                border-color: $text-menu;
+                transition: 0.5s;
+            }
+            &.active{
+                color: $green;
+                border-color: $green;
+                margin: 0px 17px;
+            }
+
+        }
+    }
+}

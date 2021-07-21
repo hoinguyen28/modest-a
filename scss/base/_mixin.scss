@@ -1,0 +1,9 @@
+@mixin border-left {
+    display: inline-block;
+    border-left: 10px solid $border-left;
+    padding-left: 18px;
+}
+@mixin format ($count:4){
+    width: ((100% - (#{$count}-1)*30px)/$count);
+    margin-right: 30px;
+}  

@@ -1,0 +1,40 @@
+.about{
+    padding-top: 67px;
+    &__title{
+        @include border-left;
+    }
+    &__sessions{
+        display: flex;
+        margin-top: 48.1px;
+        margin-bottom: 93px;
+    }
+    &__left{
+        width: 57.5%;
+        ul{
+            display: flex;
+            margin-top: 50px;
+        }
+        li{
+            margin-right: 1px;
+        }
+    }
+    &__p2{
+        padding-top: 29px;
+    }  
+    &__right{
+        margin-top: 6px;
+        width: 42.5%;
+        float: right;
+    } 
+    &__information{
+        display: flex;
+        margin-left: 30px;
+        margin-bottom: 33px;
+        img{
+            width: 50px;
+            height: 50px;
+            margin-right: 20px;
+        }
+    }
+    
+}    
